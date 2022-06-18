@@ -139,6 +139,8 @@ describe('Repositories', () => {
       last_name: 'fRAga',
     });
 
+    console.log('result1', result1);
+
     const result2 = await usersRepository.findUserByFullName({
       first_name: 'Danilo',
       last_name: 'Vieira',
